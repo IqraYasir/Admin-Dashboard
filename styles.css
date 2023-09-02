@@ -1,0 +1,19 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+header {
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: white;
+}
+
+#sidebar {
+    grid-row: 1 / -1;
+    background-color: lightskyblue;
+}
+
+main {
+    background-color: lightgray;
+}
